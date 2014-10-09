@@ -24,5 +24,5 @@ $shuttleSection.waypoint(function () {
 }, {offset:'50%'});
 
 $shipSection.waypoint(function () {
-    $ship.adClass('js-ship-fade');
-}, {offset:'50%'});
+    $ship.addClass('js-ship-fade');
+}, {offset:'80%'});

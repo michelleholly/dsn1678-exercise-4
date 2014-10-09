@@ -90,15 +90,15 @@ section {
     -webkit-animation-delay: 100ms;
 }
 
-.ship3{
+.ship3 {
     -webkit-animation-delay: 300ms;
 }
 
-.ship4{
+.ship4 {
     -webkit-animation-delay: 200ms;
 }
 
-@-webkit-keyframes ship-face {
+@-webkit-keyframes ship-fade {
     0%{
         opacity: 0;
         transform: translateY(100px);   
