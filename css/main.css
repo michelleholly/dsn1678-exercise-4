@@ -40,3 +40,71 @@ section {
         opacity: 1;   
     }
 }
+
+.shuttle {
+    width: 300px;
+    transform: translateY(300px);
+}
+
+.shuttle-section {
+    background-color: #fea529;
+}
+
+.js-shuttle-fade {
+    -webkit-animation: shuttle-fade 400ms linear forwards;
+}
+
+@-webkit-keyframes shuttle-fade {
+    0%{
+        opacity: 0;
+        transform: translateY(300px);   
+    }
+    100% {
+        opacity: 1;    
+        transform: translateY(0px);
+    }   
+}
+
+.ship-section {
+    background: transparent url("../img/kasei-valles-canyons.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.ship {
+    width: 150px;
+    padding: 0 1rem;
+    display: inline-block;
+    transform: translateY(100px);
+}
+
+.js-ship-fade {
+    -webkit-animation: ship-fade 400ms linear forwards;
+}
+
+.ship1 {
+    -webkit-animation-delay: 400ms;
+}
+
+.ship2 {
+    -webkit-animation-delay: 100ms;
+}
+
+.ship3{
+    -webkit-animation-delay: 300ms;
+}
+
+.ship4{
+    -webkit-animation-delay: 200ms;
+}
+
+@-webkit-keyframes ship-face {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);   
+    }
+    100% {
+        opacity: 1;    
+        transform: translateY(0);
+    }   
+}
